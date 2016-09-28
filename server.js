@@ -88,8 +88,9 @@ var aritcles ={
 function createTemplate(data){
 var title =data.title;
 var date=data.date;
-var content=data.content;
 var heading = data.heading;
+var content=data.content;
+
 
 var htmlTemplate= `
    <html>
